@@ -1,0 +1,34 @@
+{
+  "name": "bookmark-manager",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "standard .",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "workbox-recipes": "^6.2.4",
+    "workbox-routing": "^6.2.4",
+    "workbox-strategies": "^6.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "prettier": "^2.6.2",
+    "standard": "^17.0.0",
+    "vite": "^2.9.7",
+    "vite-plugin-pwa": "^0.11.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "rules": {
+      "space-before-function-paren": "off"
+    }
+  }
+}
